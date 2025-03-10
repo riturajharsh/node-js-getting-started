@@ -8,7 +8,9 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "jest"
+    "build": "npm install && npm prune --production",
+    "test": "jest",
+    "lint": "eslint"
   },
   "dependencies": {
     "ejs": "^3.1.10",
